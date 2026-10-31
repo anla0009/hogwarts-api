@@ -3,16 +3,6 @@
 Backend (Node.js, Express og PostgreSQL) med et REST API til houses, teachers, students og courses.
 Der er ingen frontend.
 
-## Kom i gang
-
-Kræver Node 20.6 eller nyere og PostgreSQL.
-
-1. Opret en tom database i pgAdmin, der hedder `hogwarts`.
-2. Åbn et Query Tool på databasen, og kør filen `database/hogwarts.sql`. Den opretter alle tabeller med eksempeldata.
-3. Kopiér `.env.example` til `.env`, og skriv dit PostgreSQL-password i `PGPASSWORD`.
-4. Kør `npm install` og derefter `npm start`.
-5. API'et kører nu på http://localhost:3000.
-
 ## Endpoints
 
 | Method | Route | Beskrivelse | Status |
